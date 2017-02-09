@@ -1,0 +1,22 @@
+<html>
+<body>
+
+<button onclick="myFunction()">Sort</button>
+<p id="demo">Display Here</p>
+
+<script>
+
+
+var author = ["Volvo", "BMW", "Saab"];
+document.getElementById("demo").innerHTML = author;
+
+function myFunction() {
+author.sort(); /*(function(a, b){return b - a})*/;
+	document.getElementById("demo").innerHTML = author;
+}
+
+
+</script>
+</body>
+
+</html>
