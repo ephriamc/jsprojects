@@ -1,12 +1,11 @@
 <html>
 <body>
 
-<button onclick="myFunction()">Press to Begin</button>
 <ol>
 <li id="location0"></li>
 <li id="location1"></li>
 <li id="location2"></li>
-<li id="location3"></li>-->
+<li id="location3"></li>
 </ol>
 
 
@@ -22,21 +21,15 @@ author.sort(function(a, b){return a - b});
 	document.getElementById("demo").innerHTML = author;
 }*/
 
-function myFunction() {
-var name = prompt("What is your name registered on your passport?");
-
-if (person != null) {
-	document.getElementById("location0").innerHTML = "Name: " + name;
- }
-}
-/*var origin = "Point of Origin: ";
+var name = "Name: ";
+var origin = "Point of Origin: ";
 var flight = "Flight Number: ";
 var party = "Number of Passengers: ";
 
-document.getElementById("location0").innerHTML = "Name: " + name 
+document.getElementById("location0").innerHTML = name + prompt("What is the name on your passport?");
 document.getElementById("location1").innerHTML = origin + prompt("Where are you from?");
 document.getElementById("location2").innerHTML = flight + prompt("What was your flight number?");
-document.getElementById("location3").innerHTML = party + prompt("How many passengers are in your party?");*/
+document.getElementById("location3").innerHTML = party + prompt("How many passengers are in your party?");
 
 </script>
 </body>
