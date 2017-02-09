@@ -1,25 +1,15 @@
 <html>
 <body>
 
-<ol>
-<li id="location0"></li>
-<li id="location1"></li>
-<li id="location2"></li>
-<li id="location3"></li>
-</ol>
+<ul>
+<li id="location0">Name</li>
+<li id="location1">Origin</li>
+<li id="location2">Flight Number</li>
+<li id="location3">Party</li>
+</ul>
 
 
 <script>
-/*
-<button onclick="myFunction()">Sort</button>
-<p id="demo">Display Here</p>
-var author = [3, 4, 2, 1];
-document.getElementById("demo").innerHTML = author;
-
-function myFunction() {
-author.sort(function(a, b){return a - b});
-	document.getElementById("demo").innerHTML = author;
-}*/
 
 var name = "Name: ";
 var origin = "Point of Origin: ";
